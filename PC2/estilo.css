@@ -1,0 +1,146 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo del menú principal */
+header {
+    background-color: white; /* Cambiado a blanco */
+    padding: 15px 20px;
+    color: black; /* Cambiado a negro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregado sombra para destacar el menú */
+}
+
+.menu_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu_1 .logo ul,
+.menu_1 .sesion ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.menu_1 .logo li,
+.menu_1 .sesion li {
+    margin-right: 20px;
+    color: black; /* Color negro para los textos del menú */
+}
+
+.menu_1 .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Estilo de la sección de promociones */
+.combo {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.combo .imagen1, .combo .imagen2 {
+    width: 45%;
+}
+
+.combo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.combo div:nth-child(2) {
+    width: 50%;
+    text-align: left;
+}
+
+.combo h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.combo p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.combo h2 {
+    background-color: #006341;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+/* Estilo del menú secundario */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer .food_menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .food_menu li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer ul i {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Enlaces en el pie de página */
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Estilo del <hr> */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}

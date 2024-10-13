@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo del menú de navegación */
+header {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.menu_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu_1 ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_1 li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.menu_1 li img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Estilo de la barra de búsqueda y sesión */
+.sesion {
+    display: flex;
+}
+
+.sesion li {
+    margin-right: 20px;
+}
+
+/* Estilos para el contenedor principal */
+main {
+    display: flex;
+    margin: 20px;
+}
+
+/* Estilo del menú lateral */
+.productos-menu {
+    width: 20%;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+}
+
+.productos-menu h1 {
+    font-size: 18px;
+    color: #006341;
+    margin-bottom: 10px;
+}
+
+.productos-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.productos-menu li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Estilo del contenido del menú */
+.productos-contenido {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.productos-contenido h1 {
+    font-size: 24px;
+    color: #006341;
+}
+
+.seccion_producto h2 {
+    font-size: 20px;
+}
+
+/* Estilos para los productos */
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.sub_productos {
+    text-align: center;
+}
+
+.sub_productos img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer .food_menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+footer .food_menu li {
+    margin-right: 15px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+footer ul i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.libro img {
+    width: 50px; /* Cambia este valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto; /* Centra la imagen si está dentro de un contenedor */
+    display: block; /* Asegura que se trate como un bloque */
